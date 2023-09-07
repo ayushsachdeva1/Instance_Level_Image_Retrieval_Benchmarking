@@ -27,7 +27,7 @@ Unfortunately, repositories with code for the models are massive leading to inco
 
 There are READMEs in each of the folders explaining how to make the necessary changes to finetune and run inference using these models.
 
-Note: For all code, we assume that the amur dataset is in a scratch folder at the location, /scratch/as216/amur/. 
+Note: For all code, we assume that the amur dataset is in a scratch folder at /scratch/as216/amur/. 
 
 ## Results
 After Benchmarking, we find that the SOTA models (finetuned or with the original weights) do not come sufficiently close to the top of the leaderboard for the competition for us to conclude that these models can replace the species-specific models that segment the limbs, torso, head, tail, etc. and use other domain knowledge to build the model architecture. The results are compiled in the following table: 
