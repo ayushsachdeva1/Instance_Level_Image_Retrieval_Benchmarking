@@ -11,7 +11,7 @@ We evaluate three model architectures that represent the current state-of-the-ar
 - SuperGlue
 - Reranking Transformer
 
-We will be finetuneing these models and evaluating them on the Amur Dataset (https://arxiv.org/pdf/1906.05586.pdf). This dataset contains over 3000 images of 92 individual tigers. This dataset has been chosen as it allows for easy comparison of results with the leaderboard of an ICCV Workshop on the dataset (https://cvwc2019.github.io/index.html#body-home). 
+We will be finetuneing these models and evaluating them on the [Amur Dataset](https://arxiv.org/pdf/1906.05586.pdf). This dataset contains over 3000 images of 92 individual tigers. This dataset has been chosen as it allows for easy comparison of results with the leaderboard of an ICCV Workshop on the [dataset](https://cvwc2019.github.io/index.html#body-home). 
 
 ## Additions/Changes to Models
 For fair comparison, we have at least one variant of the models where we have not made any changes to the core architecture of the model, except what is required to finetune/run inference on the amur dataset. 
@@ -24,6 +24,8 @@ Due to the lack of training data being a concern, we are currently working on ev
 
 ## Code
 Unfortunately, repositories with code for the models are massive leading to inconvenience while combining them on github. So this repository will only contain files from the different repositories which are changed for finetuning or to work the amur dataset. 
+
+There are READMEs in each of the folders explaining how to make the necessary changes to finetune and run inference using these models.
 
 Note: For all code, we assume that the amur dataset is in a scratch folder at the location, /scratch/as216/amur/. 
 
