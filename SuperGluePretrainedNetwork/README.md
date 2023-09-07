@@ -1,6 +1,6 @@
 # SuperGlue
 
-These are the major changes to be made to the [Superglue repo](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master#reproducing-outdoor-evaluation-final-table). 
+These are the major changes to be made to the [SuperGlue repo](https://github.com/magicleap/SuperGluePretrainedNetwork/tree/master#reproducing-outdoor-evaluation-final-table). 
 
 We assume that the amur dataset or synthetic amur dataset is at /scratch/as216/amur. If using masked images, we use that the pkl file with mask coordinates is at segment_anything_amur/train_masks.pkl.
 
