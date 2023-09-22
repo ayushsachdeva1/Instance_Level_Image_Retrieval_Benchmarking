@@ -1,6 +1,10 @@
 # Benchmarking of Instance Retrieval Models on Amur Tiger Dataset
 ##### Work done under Dr. Vicente Ordoñez, [Vislang Group](https://vislang.ai/)
 
+![alt text](https://github.com/ayushsachdeva1/WildlifeReID/blob/main/images/superglue_results.png)
+|:--:| 
+| *Results of Superglue on Tiger Re-ID* |
+
 ## Introduction
 Wildlife Re-ID is the task of searching for the instance of a particular individual animal in a large database (usually using a query image). This is a specific case / variation of the generalized instance-level image retrieval task. The accuracy for this specific case, however, is lower than the general case due to the similarity between different individuals and lack of extensive training data. 
 
